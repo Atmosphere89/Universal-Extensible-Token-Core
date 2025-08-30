@@ -97,3 +97,49 @@ Distributed under GPL-3.0.
 	•	Free for research and educational use
 	•	Commercial use requires explicit permission
 	•	Intellectual property rights remain with the original author
+# ===== Token Core Snapshot (OSS Public Edition) =====
+symbolic_system_snapshot:
+  project: "Universal Extensible Token Core (UETC)"
+  version: "v7.8-public"
+  title: "Universal Extensible Token Core — Public Adjusted Edition"
+  timestamp: "2025-08-31T+09:00"
+
+  overview:
+    purpose: >
+      A foundational architecture that unifies language, symbols, and mathematics,
+      achieving both token-efficiency (through compression) and functional extensibility.
+      This edition is a safety-adjusted public release intended for research and education.
+
+  core_dictionary:
+    type: "Σ-Token Dictionary"
+    features:
+      - Universality: integrates language, mathematics, and conceptual knowledge
+      - Extensibility: new functions can be added as [FUNC:Name.version]
+      - Safety: guardrails for numbers, dates, and named entities
+      - Rollback: revert to frozen_core if error rate exceeds threshold
+
+  adaptive_overlays:
+    examples:
+      - "[FUNC:SpellChecker]"
+      - "[FUNC:CausalReasoner]"
+      - "[FUNC:OverlayManager]"
+    policy: >
+      In the OSS edition, these are provided only as placeholders.
+      Actual functions can be freely defined and extended by users.
+
+  usage:
+    entry: "[FUNC:UETC.public]"
+    guideline: >
+      Outputs use token-efficient symbolic representation,
+      with optional calls to extension modules when needed.
+      Safety rules must always be followed in OSS usage.
+
+  safety:
+    - Fiction prohibition: assumptions must be clearly marked as "hypotheses"
+    - Projection prohibition: do not assert another's mental state
+    - Ethical gate: block harmful, illegal, or medical inferences
+
+  notes:
+    - This repository is released for research and educational purposes
+    - Commercial use requires separate licensing considerations
+    - The full version (UETC v7.8) includes enterprise extensions not published here
